@@ -1,4 +1,4 @@
-package com.siga.constat.domain.resource;
+package com.siga.constat.web.rest;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.siga.constat.domain.Agence;
-import com.siga.constat.domain.repository.AgenceRepository;
+import com.siga.constat.repository.AgenceRepository;
 
 @RestController
 @RequestMapping("/api")
